@@ -1,2 +1,7 @@
-# scanAnimation
-二维码扫描动画
+@interface QRCodeReaderView : UIView
+
+@property (nonatomic,strong) UIColor *fillColor;
+
+- (void)stopAction;
+
+@end
